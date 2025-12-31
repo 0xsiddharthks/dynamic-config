@@ -24,3 +24,7 @@ google-cloud-storage = { version = "0.22", optional = true }
 [dev-dependencies]
 tokio = { version = "1", features = ["full", "macros"] }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[[example]]
+name = "s3_example"
+required-features = ["s3"]
