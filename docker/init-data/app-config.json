@@ -1,0 +1,7 @@
+{
+  "name": "dynamic-config",
+  "version": "1.0.0",
+  "nested_attributes": {
+    "value": true
+  }
+}
